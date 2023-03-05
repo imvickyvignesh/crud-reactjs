@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border-bottom: 1px solid white; */
+}
+#nav>a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    padding: 10px;
+    background-color: white;
+    border-radius: 4px;
+    font-weight: 600;
+    text-decoration: underline;
+    /* text-shadow: 1px 2px 2px white;  */
+}
+#myform{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(hotpink,violet);
+    /* background: rgb(250,251,255); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+#myform>form{
+    height:250px;
+    width:300px;
+    border:1px solid white;
+    color: black;
+    background-color:white;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 5px white; */
+    
+}
+#myform>form>tr>td{
+    padding: 15px;
+}
+#myform input{
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid black;
+    color: black;
+    background: white;
+}
+#myform input:focus{
+    outline: none;
+    color: black;
+}
+#myform button{
+    height: 30px;
+    width: 80px;
+    background-color: #177ce2;
+    border:none;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px white;
+    margin-top: 1px;
+    color: white;
+}
+#myform>form>tr>th{
+    padding: 13px;
+}
+#userpage{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(hotpink,violet);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#card{
+    height: 200px;
+    width: 220px;
+    /* border: 1px solid white; */
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 5px white; */
+   background-color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#card td{
+    padding: 10px;
+}
+button{
+    height: 25px;
+    width: 80px;
+    border:none;
+    border-radius: 50px;
+    /* box-shadow: 0px 0px 5px white; */
+    background-color: #177ce2;
+    color: white;
+}
+button>a{
+    text-decoration: none;
+    color: white;
+}
